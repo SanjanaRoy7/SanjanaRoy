@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+   
+}
+
+#app{
+   
+    /* visibility: hidden; */
+    /* background-image: url('./assests/background.avif'); */
+    -webkit-background-position: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba(9, 12, 14, 0.3); */
+
+    
+   
+}
+
+*, *::before, ::after {
+    border-color: var(--chakra-colors-chakra-border-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+   
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.name{
+    color:#FFD1A7;
+    font-size: 3.45em;
+    margin-bottom: 18px;
+}
+
+.headbtn{
+    color: #609DFF;
+    font-size: 1.5em;
+    padding: 15px;
+    border-width: 0;
+    border-style: solid;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    background: #09151A;
+    border: #609DFF 2px solid;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Merriweather';
+    margin-right: 12px;
+}
+
+#subhead{
+    /* color: #e5e0df; */
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+#personPhoto{
+    width: calc(264.8888888888889* calc(1.1* var(1, 1)* var(1, 1rem)* 1* var(1.125, 1.125)) / 16);
+    max-width: calc(100%* min(1, var(1, 1)));
+    height: 500px;
+    /* border-radius: 50%; */
+    margin-top: 20px;
+    cursor: zoom-in;
+    inset: 0px;
+    border-radius: 5px;
+}
+
+#about{
+    padding: 50px;
+    /* color: #e5e0df; */
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .contact-container h2 {
+    font-size: 2.2em;
+    margin-bottom: 50px;
+    font-family: Georgia, serif; /* or any other serif font you like */
+  }
+  .contact-items {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Space between each contact item */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+  }
+  .contact-item {
+    width: 160px;
+    text-align: center;
+  }
+  .contact-icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  /* For the smaller "Phone", "Email", "LinkedIn" labels if desired */
+  .contact-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  .contact-link {
+    /* color: #FFFFFF; */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .contact-link:hover {
+    color: #FFB400; /* Hover color for links */
+  }
+
+
+
+  .work-experience{
+    color: #8f96a3;
+  }
+
+  .work-experience-container{
+    font-size: 1.0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .work-experience-container p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .certications{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    inset: 0px;
+  }
+
